@@ -1,0 +1,35 @@
+//<div class="container">
+     <div class="row">
+        <div class="col-lg-6">
+            <img  src="image/e20ea978f9f5ab5e98bb6a90d2c7d8be.gif">
+            </div>
+            <div class="col-lg-6">
+                <img src="image/3f9ab991fe93d5aad16c61a0dad757cf.gif">
+            </div>
+     </div>
+        <div id="cart">
+            <div class="cart-item" data-price="20.99">
+                <button class="quantity-btn" onclick="adjustQuantity(this, -1)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="adjustQuantity(this, 1)">+</button>
+                <button class="delete-btn" onclick="deleteItem(this)">&#10006;</button>
+                <i class="like-btn far fa-heart" onclick="toggleLike(this)"></i>
+            </div>
+            <div class="cart-item" data-price="15.49">
+                <span>Item B</span>
+                <button class="quantity-btn" onclick="adjustQuantity(this, -1)">-</button>
+                <span class="quantity">2</span>
+                <button class="quantity-btn" onclick="adjustQuantity(this, 1)">+</button>
+                <button class="delete-btn" eleteIteonclick="dm(this)">&#10006;</button>
+                <i class="like-btn far fa-heart" onclick="toggleLike(this)"></i>
+            </div>
+        </div>
+
+
+
+
+        <button class="delete-btn" eleteIteonclick="dm(this)">&#10006;</button>
+
+
+      
+            
